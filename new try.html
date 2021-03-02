@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <script defer src="js/main.js"></script>
+    <title>Responsive contact us form</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <h2>contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fas fa-globe"></i></span>
+                            <span>31500 Tudela, Navarra, Spain</span>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-at"></i></span>
+                            <span><a href="mailto:wheazzyfinesse@gmail.com">send me an email</a></span>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-phone-alt"></i></span>
+                            <span><a href="tel:+34688782524">give me a call</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="social">
+                    <li><a href="http://www.facebook.com/wheazzyfinesse"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="http://www.twitter.com/wheazzyfinesse"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="http://www.instagram.com/wheazzyfinesse"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="http://www.github.com/wheazzyfinesse"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h2>Send a message</h2>
+                <form class="form-box">
+                    <div class="input-box w50">
+                        <input id="first-name" type="text" required>
+                        <span>First Name</span>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-box w50">
+                        <input id="last-name" type="text" required>
+                        <span>Last Name</span>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-box w50">
+                        <input id="email" type="email" required>
+                        <span>Email Address</span>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-box w50">
+                        <input id="phone-number" type="text" required>
+                        <span>Phone Number </span>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-box w100">
+                        <textarea id="message" required></textarea>
+                        <span>Write your message here... </span>
+                        <small>Error message</small>
+                    </div>
+                    <div class="input-box w100">
+                        <input id="submit" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
